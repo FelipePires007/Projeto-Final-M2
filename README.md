@@ -19,7 +19,7 @@ Aqueles que ajudaram a levantar o projeto desde o seu início
 * **Mizael N. Costa** - *Trabalho Inicial* - [Github](https://github.com/minu1123)
 * **Ligya Marina** - *Trabalho Inicial* - [Github](https://github.com/LigyaM)
 * **Felipe Pires** - *Trabalho Inicial* - [Github](https://github.com/FelipePires007)
-* **Gabriela R reis** - *Trabalho Inicial* - [Github](https://github.com/dev-gabis))
+* **Gabriela R reis** - *Trabalho Inicial* - [Github](https://github.com/dev-gabis)
 
 Você também pode ver a lista de todos os [colaboradores](https://github.com/FelipePires007/Projeto-Final-M2/graphs/contributors) que participaram deste projeto.
 
