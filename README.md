@@ -25,8 +25,7 @@ Você também pode ver a lista de todos os [colaboradores](https://github.com/Fe
 
 ## 🎁 Expressões de gratidão
 
-* 🌟 Um enorme agradecimento ao incrível time da Programadores do Amanhã por nos proporcionar:
-* 🚀 Momentos incríveis e a oportunidade de desenvolver esse projeto juntos;
+* 🌟 Um enorme agradecimento ao incrível time da Programadores do Amanhã por nos proporcionar momentos incríveis e a oportunidade de desenvolver esse projeto juntos; 🚀
 * 💖 Somos imensamente gratos e ansiamos por caminhar juntos sempre!
 * 🌱 Muito obrigado por tudo! 🙌🎉
 
