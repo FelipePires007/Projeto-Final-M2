@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Tela Dividida</title>
+<link rel="stylesheet" href="/styles/style.css">
+<style>
+    .preta {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+    }
+    .preta img {
+        max-width: 100%;
+        max-height: 100%;
+    }
+    .azul {
+        flex: 1;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        padding: 20px;
+    }
+    .azul .titulo {
+        margin-bottom: 20px;
+    }
+    .azul p {
+        margin-bottom: 10px;
+    }
+</style>
+</head>
+<body>
+    <div class="container">
+        <div class="preta">
+            <img src="/img/word.png" alt="Descrição da imagem">
+        </div>
+        <div class="azul">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, assumenda sequi rerum iste libero itaque!</p>
+            <h1 class="titulo">NOME DO PROJETO</h1>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Modi, assumenda sequi rerum iste libero itaque!</p>
+            <a href="links.html" class="btn">Botão 1</a>
+        </div>
+    </div>
+</body>
+</html>

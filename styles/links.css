@@ -1,0 +1,47 @@
+body {
+    font-family: sans-serif;
+    background-color: blueviolet;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+}
+h1 {
+    color: white;
+}
+.container {
+    text-align: center;
+}
+.botoes {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 50px;
+}
+.btn {
+    background-color: blue;
+    padding: 15px 40px;
+    color: aliceblue;
+    border-radius: 10px;
+    margin: 10px;
+    text-decoration: none;
+    width: 200px; /* Define a largura fixa dos botões */
+    text-align: center; /* Centraliza o texto dentro dos botões */
+    font-size: 18px;
+}
+.btn:hover {
+    background-color: antiquewhite;
+    color: blue;
+}
+.voltar {
+    background-color: rgb(255, 255, 255);
+    color: blue;
+}
+.voltar:hover {
+    background-color: blue;
+    padding: 15px 40px;
+    color: aliceblue;
+}
