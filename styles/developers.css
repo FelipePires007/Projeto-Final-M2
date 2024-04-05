@@ -1,3 +1,26 @@
+body {
+    background-color: #f8f9fa;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Centraliza horizontalmente */
+    align-items: center; /* Centraliza verticalmente */
+    height: 100vh; /* Para ocupar toda a altura da tela */
+}
+.container {
+    width: 80%;
+    max-width: 500px;
+    padding: 30px;
+    background-color: #009CFD;
+    border-radius: 10px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+h1 {
+    color: #ffffff;
+    text-align: center;
+    margin-bottom: 20px;
+}
+
 .developer {
     display: flex;
     align-items: center;
@@ -14,9 +37,7 @@
 }
 .developer-info h2 {
     margin: 0;
-    color: #333;
 }
 .developer-info p {
-    color: #666;
     margin: 5px 0;
 }
