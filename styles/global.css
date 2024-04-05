@@ -1,0 +1,65 @@
+body{
+    font-family: sans-serif;
+    padding: 30px;
+}
+
+input {
+    width: calc(100% - 22px); /* Ajuste para considerar a largura da borda */
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 5px;
+    border: 1px solid #ccc;
+}
+input[type="submit"] {
+    width: 100%; /* Botão com largura total */
+    background-color: blue;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s;
+}
+input[type="submit"]:hover {
+    background-color:#fff;;
+    color: blue;
+}
+
+
+.btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: blue;
+}
+
+
+h1 {
+    color: #333;
+    text-align: center;
+    margin-bottom: 20px;
+}
+p {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-bottom: 15px;
+}
+ul {
+    color: #666;
+    font-size: 18px;
+    line-height: 1.6;
+    margin-left: 20px;
+    margin-bottom: 15px;
+}
+li {
+    margin-bottom: 5px;
+}
