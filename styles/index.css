@@ -1,0 +1,83 @@
+body {
+    font-family: sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    display: flex;
+    height: 100vh;
+}
+
+.preta {
+    flex: 1;
+    background-color: rgb(0, 0, 95);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.preta img {
+    max-width: 100%;
+    max-height: 100%;
+}
+
+.azul {
+    flex: 1;
+    background-color: #009CFD;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    color: white;
+    padding: 20px;
+}
+
+.azul .titulo {
+    font-size: 4vw;
+    margin-bottom: 20px;
+}
+
+.azul p {
+    margin: 2vw;
+    max-width: 90%;
+    text-align: center;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: white;
+    color: #009CFD;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+}
+
+.btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: blue;
+}
+
+
+/* Media query para telas pequenas */
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-direction: column; /* Mudança para coluna em telas pequenas */
+    }
+    .preta {
+        order: 2; /* Inverte a ordem da div "preta" para aparecer abaixo em telas pequenas */
+    }
+}
