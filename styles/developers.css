@@ -1,4 +1,5 @@
 body {
+    font-family: sans-serif;
     background-color: #f8f9fa;
     margin: 0;
     padding: 0;
@@ -7,6 +8,21 @@ body {
     align-items: center; /* Centraliza verticalmente */
     height: 100vh; /* Para ocupar toda a altura da tela */
 }
+
+.btn {
+    padding: 10px 20px;
+    background-color: blue;
+    color: #ffffff;
+    text-decoration: none;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+    background-color: #f0f0f0;
+    color: blue;
+}
+
 .container {
     width: 80%;
     max-width: 500px;
@@ -14,6 +30,7 @@ body {
     background-color: #009CFD;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    border-radius: 20px;
 }
 h1 {
     color: #ffffff;
