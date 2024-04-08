@@ -1,62 +1,44 @@
-body {
-    font-family: sans-serif;
-    background-color: #009CFD;
+*{
     margin: 0;
     padding: 0;
-    display: flex;
-    justify-content: center;
-    height: 100vh;
+    box-sizing: border-box;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
 }
-h1 {
-    color: white;
-}
-.container {
-    text-align: center;
-}
-.botoes {
+
+.center{
     display: flex;
     flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    margin-bottom: 50px;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
 }
-.btn {
-    background-color: blue;
-    padding: 15px 40px;
-    color: aliceblue;
-    border-radius: 10px;
-    margin: 10px;
+
+header{
+    padding: 20px 0;
+}
+
+.logo{
+    width: 50%;
+    border-radius: 60%;
+    
+}
+
+
+
+
+
+
+.menu{
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+    
+
+}
+
+.menu a{
+    color: black;
     text-decoration: none;
-    width: 200px; /* Define a largura fixa dos botões */
-    text-align: center; /* Centraliza o texto dentro dos botões */
-    font-size: 18px;
-}
-.btn:hover {
-    background-color: antiquewhite;
-    color: blue;
-}
-.voltar {
-    background-color: rgb(255, 255, 255);
-    color: blue;
-}
-.voltar:hover {
-    background-color: blue;
-    padding: 15px 40px;
-    color: aliceblue;
-}
-
-ul {
-    color: #f3f3f3;
-    font-size: 18px;
-    line-height: 1.6;
-    margin-left: 20px;
-    margin-bottom: 15px;
-    list-style-type: none
-}
-li {
-    margin-bottom: 5px;
-}
-
-p{
-    color: #f3f3f3;
+    font-weight: bold;
+    margin-right: 15px;
 }
