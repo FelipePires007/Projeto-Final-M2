@@ -3,6 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: rgb(194, 240, 244);
 }
 
 .center{
@@ -22,12 +23,6 @@ header{
     border-radius: 60%;
     
 }
-
-
-
-
-
-
 .menu{
     padding-top: 30px;
     width: 50%;
