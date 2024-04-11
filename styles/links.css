@@ -81,7 +81,7 @@ header{
 
 h1{
     padding-bottom: 40px ;
-    color: #23d97e;
+    color: #000000;
     font-size: 50px;
 }
 
@@ -98,4 +98,8 @@ h4{
 .lista{
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none
+}
+
+.verde {
+    color: #23d97e;
 }
