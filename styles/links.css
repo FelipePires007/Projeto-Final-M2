@@ -81,9 +81,8 @@ header{
 
 h1{
     padding-bottom: 40px ;
-    color: #000000;
+    color: #23d97e;
     font-size: 50px;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .imagem{
@@ -91,7 +90,6 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
 }
 
 h4{
@@ -101,4 +99,3 @@ h4{
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none
 }
-
