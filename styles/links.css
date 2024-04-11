@@ -6,6 +6,10 @@
     }
     
     
+    header {
+        padding: 40px ;
+        border-radius: 30px;
+    }
 
 .center{
     display: flex;
@@ -13,11 +17,11 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
-    
-    
 
 }
-
+.nav{
+    background-color: #23d97e;
+}
 .navbar {
     text-align: center;
     margin-top: 50px;
@@ -44,19 +48,24 @@ header{
 
 .logo{
     width: 50%;
-    border-radius: 60%;
+    background-color: #23d97e;
     
+}
+
+.logo img{
+    background-color: #23d97e;
 }
 .menu{
     padding-top: 30px;
     width: 50%;
     text-align: right;
-    
+    background-color: #23d97e;
    
 }
 
 .menu a{
-    color: black;
+    background-color: #23d97e;
+    color: rgb(0, 0, 0);
     text-decoration: none;
     font-weight: bold;
     margin-right: 15px;
@@ -99,6 +108,7 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    border-radius: 10px;
 }
 
 h4{
@@ -120,6 +130,7 @@ p{
     font-size: 20px;
 }
 
+<<<<<<< HEAD
 :root{
     --color-neutral-0: #0e0c0c;
     --color-neutral-10: #171717;
@@ -234,3 +245,8 @@ footer{
 
 
 
+=======
+img{
+    border-radius: 20px;
+}
+>>>>>>> f2fbda1201832551446dcefbcc328ecba51b1a08
