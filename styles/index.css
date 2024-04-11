@@ -47,32 +47,17 @@ body {
 
 .btn {
     padding: 10px 20px;
-    background-color: white;
-    color: #009CFD;
-    text-decoration: none;
-    border-radius: 5px;
-    transition: background-color 0.3s ease;
-}
-
-.btn:hover {
-    background-color: #f0f0f0;
-}
-
-.btn {
-    padding: 10px 20px;
     background-color: rgb(194, 240, 244);
     color: #000000;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
-    border-radius: 10%;
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Adicionando a transição para o padding */
 }
 
 .btn:hover {
-    background-color: #79fa6d;
-    color: rgb(54, 54, 54);;
+    background-color: #fcfcfc;
+    padding: 12px 22px; /* Ajustando o padding ao passar o mouse */
 }
-
 
 /* Media query para telas pequenas */
 @media only screen and (max-width: 600px) {

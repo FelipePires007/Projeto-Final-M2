@@ -1,6 +1,6 @@
 body {
     font-family: sans-serif;
-    background-color: #f8f9fa;
+    background-color: rgb(250, 248, 248);
     margin: 0;
     padding: 0;
     display: flex;
@@ -9,25 +9,26 @@ body {
     height: 100vh; /* Para ocupar toda a altura da tela */
 }
 
+
 .btn {
     padding: 10px 20px;
-    background-color: blue;
-    color: #ffffff;
+    background-color: rgb(194, 240, 244);
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
-    transition: background-color 0.3s ease;
+    transition: background-color 0.3s ease, padding 0.3s ease; /* Adicionando a transição para o padding */
 }
 
 .btn:hover {
-    background-color: #f0f0f0;
-    color: blue;
+    background-color: #fcfcfc;
+    padding: 12px 22px; /* Ajustando o padding ao passar o mouse */
 }
 
 .container {
     width: 80%;
     max-width: 500px;
     padding: 30px;
-    background-color: #5284d6;
+    background-color: #23d97e;
     border-radius: 10px;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
     border-radius: 20px;
