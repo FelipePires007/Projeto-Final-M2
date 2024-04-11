@@ -1,19 +1,38 @@
-body{
-    font-family: 'Roboto', sans-serif;
+body {
+  font-family: sans-serif;
+  background-color: rgb(250, 248, 248);
+  margin: 0;
+  padding: 0;
+  display: flex;
+  justify-content: center; /* Centraliza horizontalmente */
+  align-items: center; /* Centraliza verticalmente */
+  height: 100vh; /* Para ocupar toda a altura da tela */
+}
+
+
+button, .btn {
+  padding: 10px 20px;
+  background-color: rgb(194, 240, 244);
+  color: #000000;
+  text-decoration: none;
+  border-radius: 5px;
+  transition: background-color 0.3s ease, padding 0.3s ease; /* Adicionando a transição para o padding */
+}
+
+button:hover, .btn:hover{
+  background-color: #f3f3f3;
+  padding: 12px 22px; /* Ajustando o padding ao passar o mouse */
 }
 
 .container {
-    max-width: 400px;
-    margin: 0 auto;
-    padding: 20px;
-    border: 1px solid #ccc;
-    border-radius: 5px;
-  }
-  
-  label {
-    display: block;
-    margin-bottom: 5px;
-  }
+  width: 80%;
+  max-width: 500px;
+  padding: 30px;
+  background-color: #23d97e;
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  border-radius: 20px;
+}
   
   input[type="text"],
   input[type="email"],
@@ -26,13 +45,4 @@ body{
     border: 1px solid #ccc;
   }
   
-  button {
-    background-color: #007bff;
-    color: #fff;
-    cursor: pointer;
-  }
-  
-  button:hover {
-    background-color: #0056b3;
-  }
   
