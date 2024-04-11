@@ -38,7 +38,7 @@ button:hover, .btn:hover{
   input[type="email"],
   input[type="number"],
   button {
-    width: 100%;
+    width: 90%;
     padding: 10px;
     margin-bottom: 10px;
     border-radius: 5px;
