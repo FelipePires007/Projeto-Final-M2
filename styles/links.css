@@ -3,7 +3,8 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(250, 248, 248);}
+    background-color: rgb(255, 255, 255);}
+    
 
 .center{
     display: flex;
@@ -11,6 +12,9 @@
     max-width: 1280px;
     margin: 0 auto;
     padding: 0 2%;
+    
+    
+
 }
 .nav{
     background-color: #23d97e;
@@ -36,6 +40,7 @@
 
 header{
     padding: 20px 0;
+    
 }
 
 .logo{
@@ -47,6 +52,8 @@ header{
     padding-top: 30px;
     width: 50%;
     text-align: right;
+    
+   
 }
 
 .menu a{
@@ -83,7 +90,7 @@ header{
 
 h1{
     padding-bottom: 40px ;
-    color: #23d97e;
+    color: #000000;
     font-size: 50px;
 }
 
@@ -92,12 +99,24 @@ h1{
     flex-direction: row;
     align-items: center;
     justify-content: center;
+    border-radius: 50%;
 }
 
 h4{
     color: #23d97e;
+    font-size: 25px;
+    font-family: 'Times New Roman', Times, serif;
 }
 .lista{
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none
+}
+
+.verde {
+    color: #23d97e;
+    font-size: 50px;
+}
+
+p{
+    font-size: 20px;
 }
