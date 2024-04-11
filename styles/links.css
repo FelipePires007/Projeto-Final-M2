@@ -1,21 +1,21 @@
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    }
-    
-    
-body{
+}
+
+
+body {
     padding-top: 100px;
 }
 
 header {
-        padding: 40px ;
-        background-color: #23d97e;
-    }
+    padding: 40px;
+    background-color: #23d97e;
+}
 
-.center{
+.center {
     display: flex;
     flex-wrap: wrap;
     max-width: 1280px;
@@ -23,18 +23,21 @@ header {
     padding: 0 2%;
 
 }
-.nav{
+
+.nav {
     background-color: #23d97e;
 }
+
 .navbar {
     text-align: center;
     margin-top: 50px;
-    
+
 }
 
 .navbar a {
     display: inline-block;
-    margin: 0 15px; /* Espaçamento entre os links */
+    margin: 0 15px;
+    /* Espaçamento entre os links */
     text-decoration: none;
     color: #333;
     font-weight: bold;
@@ -43,39 +46,44 @@ header {
 }
 
 .navbar a:hover {
-    color: #23d97e; /* Cor ao passar o mouse */
+    color: #23d97e;
+    /* Cor ao passar o mouse */
 }
 
-header{
+header {
     padding: 20px 0;
     position: fixed;
     top: 0;
     left: 0;
     width: 100%;
-    background-color: #23d97e; /* Cor de fundo da nav */
-    padding: 10px 0; /* Espaçamento interno */
-    z-index: 1000; /* Para garantir que a nav fique sempre acima dos outros elementos */
-    
+    background-color: #23d97e;
+    /* Cor de fundo da nav */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    z-index: 1000;
+    /* Para garantir que a nav fique sempre acima dos outros elementos */
+
 }
 
-.logo{
+.logo {
     width: 50%;
     background-color: #23d97e;
-    
+
 }
 
-.logo img{
+.logo img {
     background-color: #23d97e;
 }
-.menu{
+
+.menu {
     padding-top: 30px;
     width: 50%;
     text-align: right;
     background-color: #23d97e;
-   
+
 }
 
-.menu a{
+.menu a {
     background-color: #23d97e;
     color: rgb(0, 0, 0);
     text-decoration: none;
@@ -92,29 +100,33 @@ header{
     height: 2px;
     bottom: -5px;
     left: 0;
-    background-color: #000; /* cor da linha */
-    transition: all 0.3s ease; /* transição suave */
-    transform: scaleX(0); /* esconde a linha inicialmente */
+    background-color: #000;
+    /* cor da linha */
+    transition: all 0.3s ease;
+    /* transição suave */
+    transform: scaleX(0);
+    /* esconde a linha inicialmente */
 }
 
 .menu a:hover::after {
-    transform: scaleX(1); /* exibe a linha quando o mouse passa sobre o link */
+    transform: scaleX(1);
+    /* exibe a linha quando o mouse passa sobre o link */
 }
 
-.texto{
+.texto {
     font-family: Arial, Helvetica, sans-serif;
     text-align: center;
     padding: 50px;
     width: 700px;
 }
 
-h1{
-    padding-bottom: 40px ;
+h1 {
+    padding-bottom: 40px;
     color: #000000;
     font-size: 50px;
 }
 
-.imagem{
+.imagem {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -123,12 +135,13 @@ h1{
     border-radius: 10px;
 }
 
-h4{
+h4 {
     color: #23d97e;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
-.lista{
+
+.lista {
     font-family: Arial, Helvetica, sans-serif;
     list-style-type: none
 }
@@ -138,48 +151,48 @@ h4{
     font-size: 50px;
 }
 
-p{
+p {
     font-size: 20px;
 }
 
-:root{
+:root {
     --color-neutral-0: #0e0c0c;
     --color-neutral-10: #171717;
     --color-neutral-30: #a8a29e;
     --color-neutral-40: #f5f5f5;
 }
 
-footer{
+footer {
     width: 100%;
-    color: var(--color-neutral-40) ;
+    color: var(--color-neutral-40);
 
 }
 
 
-.footer-link{
+.footer-link {
     text-decoration: none;
 }
 
-#footer_content{
+#footer_content {
     background-color: var(--color-neutral-10);
     display: grid;
-    grid-template-columns: repeat(4,1fr);
+    grid-template-columns: repeat(4, 1fr);
     padding: 3rem 3.5rem;
 
 }
 
-#footer_contacts h1{
+#footer_contacts h1 {
     margin-bottom: 0.75rem;
 
 }
 
-#footer_social_media{
+#footer_social_media {
     display: flex;
     gap: 2rem;
     margin-top: 1.5rem;
 }
 
-#footer_social_media .footer-link{
+#footer_social_media .footer-link {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -188,32 +201,33 @@ footer{
     color: var(--color-neutral-40);
     border-radius: 50%;
     transition: all 0.4s;
-   
+
 }
 
 #footer_social_media .footer-link i {
     font-size: 1.25rem;
 }
-#footer_social_media .footer-link:hover{
-    opacity:0.8 ;
+
+#footer_social_media .footer-link:hover {
+    opacity: 0.8;
 }
 
 
 
-#instagram{
+#instagram {
     background: linear-gradient(#7f37c9, #ff2992 #ff9807);
 }
 
-#facebook{
-    background-color:#4267b3;
+#facebook {
+    background-color: #4267b3;
 }
 
-#whatsapp{
+#whatsapp {
     background-color: #25d366;
 }
 
 
-.footer-list{
+.footer-list {
     display: flex;
     flex-direction: column;
     gap: 0.75rem;
@@ -221,18 +235,18 @@ footer{
 
 }
 
-.footer-list .footer-link{
+.footer-list .footer-link {
     color: var(--color-neutral-30);
 
 }
 
-.footer-list .footer-link:hover{
-    color:#7f37c9 ;
+.footer-list .footer-link:hover {
+    color: #7f37c9;
     transition: all 0.4s;
 
 }
 
-#footer-subscribe{
+#footer-subscribe {
     display: flex;
     flex-direction: column;
     gap: 1.5rem;
@@ -243,7 +257,7 @@ footer{
     color: var(--color-neutral-30);
 }
 
-#footer_copyright{
+#footer_copyright {
     display: flex;
     justify-content: center;
     background-color: var(--color-neutral-0);
@@ -253,9 +267,47 @@ footer{
 
 }
 
-
-
-
-img{
+img {
     border-radius: 20px;
+}
+
+..imagem {
+    display: flex;
+    justify-content: center; /* Centraliza a imagem horizontalmente */
+}
+
+.imagem img {
+    max-width: 100%; /* Define a largura máxima da imagem como 100% do contêiner pai */
+    height: auto; /* Garante que a altura da imagem seja ajustada automaticamente para manter a proporção */
+    width: 80%; /* Define a largura da imagem como 80% do contêiner pai */
+}
+.texto {
+    max-width: 100%; /* Define a largura máxima do texto como 100% do contêiner pai */
+}
+
+@media screen and (max-width: 768px) {
+    .imagem img {
+        width: 90%; /* Ajusta o tamanho da imagem para dispositivos menores */
+    .menu {
+        text-align: center;
+        width: 100%;
+        padding-top: 20px; /* Ajuste conforme necessário */
+    }
+
+    .menu a {
+        display: block;
+        margin-bottom: 10px; /* Espaçamento entre os links */
+    }
+    .logo {
+        width: 100%; /* Define a largura da logo para ocupar toda a largura do contêiner */
+        text-align: center; /* Centraliza a logo */
+        margin-bottom: 20px; /* Adiciona espaço abaixo da logo */
+    }
+
+    .logo img {
+        width: 50%; /* Ajusta o tamanho da imagem da logo conforme necessário */
+    }
+    texto {
+        font-size: 16px; /* Ajusta o tamanho do texto para dispositivos menores */
+    }
 }
