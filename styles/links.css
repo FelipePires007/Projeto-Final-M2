@@ -107,6 +107,7 @@ h1{
     align-items: center;
     justify-content: center;
     border-radius: 50%;
+    border-radius: 10px;
 }
 
 h4{
@@ -126,4 +127,8 @@ h4{
 
 p{
     font-size: 20px;
+}
+
+img{
+    border-radius: 20px;
 }
