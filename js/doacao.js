@@ -2,8 +2,8 @@ $(document).ready(function() {
   $('#donationForm').submit(function(e) {
       e.preventDefault();
 
-      var formData = $(this).serialize();
-      var amount = $('#amount').val();
+      let formData = $(this).serialize();
+      let amount = $('#amount').val();
 
       // Simulação de envio do formulário
       // Aqui você pode adicionar a lógica para enviar os dados para o servidor
