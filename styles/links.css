@@ -3,8 +3,7 @@
     padding: 0;
     box-sizing: border-box;
     font-family: Verdana, Geneva, Tahoma, sans-serif;
-    background-color: rgb(194, 240, 244);
-}
+    background-color: rgb(250, 248, 248);}
 
 .center{
     display: flex;
