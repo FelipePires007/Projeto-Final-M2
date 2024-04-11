@@ -1,7 +1,6 @@
 body {
     font-family: sans-serif;
     margin: 0;
-    padding: 0;
 }
 
 .container {
@@ -61,8 +60,8 @@ body {
 
 .btn {
     padding: 10px 20px;
-    background-color: rgb(38, 38, 143);
-    color: #ffffff;
+    background-color: rgb(194, 240, 244);
+    color: #000000;
     text-decoration: none;
     border-radius: 5px;
     transition: background-color 0.3s ease;
@@ -70,8 +69,8 @@ body {
 }
 
 .btn:hover {
-    background-color: #f0f0f0;
-    color: blue;
+    background-color: #79fa6d;
+    color: rgb(54, 54, 54);;
 }
 
 

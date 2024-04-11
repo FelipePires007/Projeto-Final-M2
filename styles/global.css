@@ -30,7 +30,7 @@ input[type="submit"]:hover {
 
 .btn {
     padding: 10px 20px;
-    background-color: blue;
+    background-color: rgb(194, 240, 244);
     color: #ffffff;
     text-decoration: none;
     border-radius: 5px;
