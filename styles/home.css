@@ -79,7 +79,6 @@ header {
     padding-top: 30px;
     width: 50%;
     text-align: right;
-    background-color: #23d97e;
 
 }
 
@@ -122,7 +121,7 @@ header {
 
 h1 {
     padding-bottom: 40px;
-    color: #000000;
+    color: #00af00;
     font-size: 50px;
 }
 
@@ -131,12 +130,15 @@ h1 {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border-radius: 50%;
     border-radius: 10px;
+    width:800px;
+    max-width: 100%x;
 }
 
 h4 {
-    color: #23d97e;
+    
+    color: #00af00;
+    padding: 5px;
     font-size: 25px;
     font-family: 'Times New Roman', Times, serif;
 }
@@ -267,11 +269,16 @@ footer {
 
 }
 
+li{
+    list-style: none;
+    margin: 10px;
+}
+
 img {
     border-radius: 20px;
 }
 
-..imagem {
+.imagem {
     display: flex;
     justify-content: center; /* Centraliza a imagem horizontalmente */
 }
@@ -285,19 +292,33 @@ img {
     max-width: 100%; /* Define a largura máxima do texto como 100% do contêiner pai */
 }
 
+span{
+    background-color: #23d97e;
+}
+
 @media screen and (max-width: 768px) {
     .imagem img {
         width: 90%; /* Ajusta o tamanho da imagem para dispositivos menores */
+    }
+    
     .menu {
-        text-align: center;
-        width: 100%;
-        padding-top: 20px; /* Ajuste conforme necessário */
+        text-align: center; /* Centraliza os elementos do menu */
     }
 
     .menu a {
-        display: block;
-        margin-bottom: 10px; /* Espaçamento entre os links */
+        display: block; /* Exibe os elementos do menu como blocos */
+        margin-bottom: 10px; /* Adiciona espaçamento entre os elementos do menu */
     }
+
+    .navbar {
+        text-align: center; /* Centraliza os elementos da navbar */
+    }
+
+    .navbar a {
+        display: block; /* Exibe os elementos da navbar como blocos */
+        margin-bottom: 10px; /* Adiciona espaçamento entre os elementos da navbar */
+    }
+
     .logo {
         width: 100%; /* Define a largura da logo para ocupar toda a largura do contêiner */
         text-align: center; /* Centraliza a logo */
@@ -307,7 +328,8 @@ img {
     .logo img {
         width: 50%; /* Ajusta o tamanho da imagem da logo conforme necessário */
     }
-    texto {
+
+    .texto {
         font-size: 16px; /* Ajusta o tamanho do texto para dispositivos menores */
     }
 }
