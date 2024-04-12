@@ -16,7 +16,7 @@ $(document).ready(function() {
 
             // Redirecionamento para ../html/links.html após 5 segundos (5000 milissegundos)
             setTimeout(function() {
-                window.location.href = "../html/links.html";
+                window.location.href = "../html/home.html";
             }, 5000); // 5 segundos
         }, 1000); // Tempo para a simulação da doação (1 segundo)
     });

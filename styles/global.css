@@ -1,8 +1,80 @@
 body{
     font-family: sans-serif;
     padding: 30px;
-    background-color: rgb(250, 248, 248);
+    background-color: rgb(240, 240, 240);
     color: #000000;
+    margin-top: 100px;
+}
+
+.center {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 1280px;
+    margin: 0 auto;
+    padding: 0 2%;
+
+}
+
+header {
+    padding: 20px 0;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: #23d97e;
+    /* Cor de fundo da nav */
+    padding: 10px 0;
+    /* Espaçamento interno */
+    z-index: 1000;
+    /* Para garantir que a nav fique sempre acima dos outros elementos */
+
+}
+
+.logo {
+    width: 50%;
+    background-color: #23d97e;
+
+}
+
+.logo img {
+    background-color: #23d97e;
+}
+
+.menu {
+    padding-top: 30px;
+    width: 50%;
+    text-align: right;
+
+}
+
+.menu a {
+    background-color: #23d97e;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    font-weight: bold;
+    margin-right: 15px;
+    position: relative;
+    text-decoration: none;
+}
+
+.menu a::after {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 2px;
+    bottom: -5px;
+    left: 0;
+    background-color: #000;
+    /* cor da linha */
+    transition: all 0.3s ease;
+    /* transição suave */
+    transform: scaleX(0);
+    /* esconde a linha inicialmente */
+}
+
+.menu a:hover::after {
+    transform: scaleX(1);
+    /* exibe a linha quando o mouse passa sobre o link */
 }
 
 input {
@@ -59,4 +131,8 @@ ul {
 }
 li {
     margin-bottom: 5px;
+}
+
+span{
+    background-color: #23d97e;
 }
