@@ -4,7 +4,7 @@
 
 O Projeto M2 Squad 4 Programadores do Amanhã, idealizado por um grupo de alunos da Programação para Dispositivos Móveis (PDA) na turma 5, módulo 2 e no squad 3, é uma iniciativa inovadora que tem como objetivo destacar os pontos de desmatamento para conscientizar sobre áreas afetadas por essa problemática ambiental. A equipe utiliza tecnologia de ponta e habilidades de programação para desenvolver uma aplicação móvel que mapeia e sinaliza esses pontos de desmatamento de forma clara e acessível ao público. O projeto não apenas visa chamar a atenção para os locais com desmatamento, mas também busca incentivar ações e políticas para proteger e preservar as áreas florestais. Esses estudantes estão combinando sua paixão pela tecnologia com uma missão ambiental importante, demonstrando como a inovação pode ser aplicada para enfrentar desafios globais urgentes.
 
-**[Apresentação do projeto](https://felipepires007.github.io/Projeto-Final-M2/html/index.html)**
+**[Site do projeto](https://felipepires007.github.io/Projeto-Final-M2/html/index.html)**
 
 ## 🛠️ Construído com
 
